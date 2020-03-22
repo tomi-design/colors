@@ -11,7 +11,7 @@ html, body {
 
 #wrapper {
   width: 100%;
-  max-width: 960px;
+  max-width: 960px;    /*--- the 100% width together with max-width means that the element has to have a mx of either 960px or 100% of the container.If the screen is bigger than 960px, then the 960 px wins. But if the screen is smaller than 960 px, then it has to be 100% of the parent---*/
   margin: auto;
 }
 
